@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#-OOB-L1-ConsoleApplicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#-OOB-L1", "C#-OOB-L1\C#-OOB-L1.csproj", "{FD7ED7C8-3363-4928-B253-A0724D023909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#-OOB-L2-Demo", "C#-OOB-L2-Demo\C#-OOB-L2-Demo.csproj", "{BE73F5BE-4522-4D80-92BA-91FF789469BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#-OOB-L2", "C#-OOB-L2\C#-OOB-L2.csproj", "{6A476A42-6572-460E-9432-696603BEFBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{FD7ED7C8-3363-4928-B253-A0724D023909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD7ED7C8-3363-4928-B253-A0724D023909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD7ED7C8-3363-4928-B253-A0724D023909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE73F5BE-4522-4D80-92BA-91FF789469BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE73F5BE-4522-4D80-92BA-91FF789469BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE73F5BE-4522-4D80-92BA-91FF789469BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE73F5BE-4522-4D80-92BA-91FF789469BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A476A42-6572-460E-9432-696603BEFBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A476A42-6572-460E-9432-696603BEFBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A476A42-6572-460E-9432-696603BEFBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A476A42-6572-460E-9432-696603BEFBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

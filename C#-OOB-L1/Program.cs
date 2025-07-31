@@ -52,7 +52,7 @@ string GetMonthRangeForSeason(string seasonName)
 //Console.WriteLine(GetMonthRangeForSeason("dfg"));
 #endregion
 
-#region => 3
+#region Solution => 3
 /* 3-Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum
     Create Variable from previous Enum to Add and Remove Permission from variable,
     check if specific Permission existed inside variable */
