@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C__OOB_L2
 {
-    internal class Rectangle
+    internal struct Rectangle
     {
         private double Length;
         private double Width;

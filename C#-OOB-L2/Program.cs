@@ -67,12 +67,11 @@ using Rectangle = C__OOB_L2.Rectangle;
 /*4.Create a struct named Rectangle that represents a rectangle with the following fields:
     width(type: double)
     height(type: double) */
-//Implement a method DisplayInfo that prints the rectangle's dimensions and area.
-//Write a program to demonstrate the usage of this struct by creating an instance, setting values via properties, and displaying the area.
-Rectangle rectangle = new Rectangle(5.0, 10.0);
-Console.WriteLine($"Rectangle Length: {rectangle.GetLength()}");
-Console.WriteLine($"Rectangle Width: {rectangle.GetWidth()}");
-Console.WriteLine($"Rectangle Area: {rectangle.GetArea()}");
+
+//Rectangle rectangle = new Rectangle(5.0, 10.0);
+//Console.WriteLine($"Rectangle Length: {rectangle.GetLength()}");
+//Console.WriteLine($"Rectangle Width: {rectangle.GetWidth()}");
+//Console.WriteLine($"Rectangle Area: {rectangle.GetArea()}");
 
 #endregion
 
