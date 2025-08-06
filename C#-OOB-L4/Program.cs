@@ -1,0 +1,36 @@
+﻿using C__OOB_L4.Q1;
+using C__OOB_L4.Q3;
+using C__OOB_L4.Q4;
+using C__OOB_L4.Q5;
+Calculator calculator = new Calculator();
+
+// Q1 using C__OOB_L4.Q1;
+Console.WriteLine("Addition of 5 and 10: " + Calculator.Add(5, 10));
+Console.WriteLine("Addition of 5, 10, and 15: " + Calculator.Add(5, 10, 15));
+Console.WriteLine("Addition of 5.5 and 10.5: " + Calculator.Add(5.5, 10.5));
+// Q2 using C__OOB_L4.Q1;
+Rectangle rectangle = new Rectangle(5, 10);
+Console.WriteLine("Rectangle Width: " + rectangle.Width);
+Console.WriteLine("Rectangle Height: " + rectangle.Height);
+// Q3using C__OOB_L4.Q4;
+ComplexNumber CN = new ComplexNumber(46.65,42.5);
+ComplexNumber CN2 = new ComplexNumber(12.5, 10.5);
+Console.WriteLine("Complex Number 1: " + CN);
+Console.WriteLine("Complex Number 2: " + CN2);
+Console.WriteLine("Addition: " + (CN + CN2));
+Console.WriteLine("Subtraction: " + (CN - CN2));
+// Q4 using C__OOB_L4.Q4;
+Employee employee = new Employee();
+employee.Work();
+Manager manager = new Manager();
+manager.Work();
+// Q5 using C__OOB_L4.Q5;
+Duration duration1 = new Duration(1, 10, 15);
+Duration duration2 = new Duration(3600);
+Duration duration3 = new Duration(7800);
+Duration duration4 = new Duration(666);
+Console.WriteLine("Duration 1: " + duration1);
+Console.WriteLine("Duration 2: " + duration2);
+Console.WriteLine("Duration 3: " + duration3);
+Console.WriteLine("Duration 4: " + duration4);
+
